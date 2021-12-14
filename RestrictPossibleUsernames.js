@@ -8,6 +8,8 @@
 
 // Usernames have to be at least two characters long. A two-character username can only use alphabet letters as characters.
 
+// MY SOLUTION
+
 let username = "JackOfAllTrades";
 let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
 let result = userCheck.test(username);
