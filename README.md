@@ -6,5 +6,5 @@ A repository for all my practice challenges and projects built throughout [FreeC
 
 
 ### Practice Challenges
-[Role Playing Game](./../role-playing-game/) \
-[Calorie Counter](./calorie-counter) \
+[Role Playing Game](./JavaScript+Algorithms+and+Data+Structures/role-playing-game/) \
+[Calorie Counter](./JavaScript+Algorithms+and+Data+Structures/calorie-counter/) 
