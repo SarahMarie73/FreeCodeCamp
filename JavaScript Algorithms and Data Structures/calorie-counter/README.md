@@ -41,3 +41,10 @@
 
 - Here’s a big one. I finally figured out how to link a folder/file that has spaces in the name in markdown by replacing the space with the following:
 `&#32;`
+
+## 01-26-2024
+
+### Today’s Takeaways
+
+- `Math.abs()` in JavaScript will return the absolute value of a number.
+- `document.querySelectorAll()` takes the selector as a string. Needed to check the mdn web docs for this part. This also returns a `NodeList` which is like an array but not an array. The `Array` object has a `.from()` method that accepts an array-like and returns and array which is helpful when you want access to more robust array methods.
