@@ -85,3 +85,9 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0,
 };
+
+const renderSongs = (array) => {
+    const songsHTML = array.map((song) => {
+        return `<li id="song-${song.id}" class="playlist-song"></li>`;
+    })
+};
