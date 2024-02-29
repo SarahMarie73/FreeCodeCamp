@@ -128,6 +128,10 @@ const playPreviousSong = () => {
     }
 };
 
+const highlightCurrentSong = () => {
+    const playlistSongElements = document.querySelectorAll(".playlist-song");
+};
+
 const renderSongs = (array) => {
     const songsHTML = array.map((song) => {
         return `<li id="song-${song.id}" class="playlist-song">
@@ -162,14 +166,18 @@ playButton.addEventListener("click", () => {
 
 pauseButton.addEventListener("click", pauseSong);
 nextButton.addEventListener("click", playNextSong);
+previousButton.addEventListener("click", playPreviousSong);
 
-userData?.songs.sort((a, b) => {
+userData?.songs.sort((a,b) => {
     if (a.title < b.title) {
-        return -1;
+      return -1;
     }
+  
     if (a.title > b.title) {
-        return 1;
+      return 1;
     }
+  
     return 0;
-});
+  });
+  
 renderSongs(userData?.songs);
